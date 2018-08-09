@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E09F0BD4211B5F5900EDE31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BD3211B5F5900EDE31D /* AppDelegate.swift */; };
-		E09F0BD6211B5F5900EDE31D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BD5211B5F5900EDE31D /* ViewController.swift */; };
+		E09F0BD6211B5F5900EDE31D /* SchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BD5211B5F5900EDE31D /* SchoolsViewController.swift */; };
 		E09F0BD9211B5F5900EDE31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F0BD7211B5F5900EDE31D /* Main.storyboard */; };
 		E09F0BDB211B5F6300EDE31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09F0BDA211B5F6300EDE31D /* Assets.xcassets */; };
 		E09F0BDE211B5F6300EDE31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09F0BDC211B5F6300EDE31D /* LaunchScreen.storyboard */; };
-		E09F0BE9211B5F6400EDE31D /* _0180808_LuisEscamilla_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BE8211B5F6400EDE31D /* _0180808_LuisEscamilla_NYCSchoolsTests.swift */; };
+		E09F0BE9211B5F6400EDE31D /* WebserviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BE8211B5F6400EDE31D /* WebserviceTests.swift */; };
+		E09F0BF5211B656700EDE31D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BF4211B656700EDE31D /* Webservice.swift */; };
+		E09F0BF8211B7BDF00EDE31D /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BF7211B7BDF00EDE31D /* School.swift */; };
+		E09F0BFC211B883900EDE31D /* SchoolsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BFB211B883900EDE31D /* SchoolsListViewModel.swift */; };
+		E09F0BFF211BBE5500EDE31D /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0BFE211BBE5500EDE31D /* SchoolTableViewCell.swift */; };
+		E09F0C01211BCC8B00EDE31D /* SchoolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0C00211BCC8B00EDE31D /* SchoolDetailViewController.swift */; };
+		E09F0C03211BCF5100EDE31D /* SchoolScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0C02211BCF5100EDE31D /* SchoolScores.swift */; };
+		E09F0C05211BD16800EDE31D /* SchoolScoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0C04211BD16800EDE31D /* SchoolScoresViewModel.swift */; };
+		E09F0C08211BDFF100EDE31D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0C07211BDFF100EDE31D /* Constants.swift */; };
+		E09F0C0A211BEB1500EDE31D /* SchoolsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0C09211BEB1500EDE31D /* SchoolsViewModelTests.swift */; };
+		E09F0C0C211BEB5300EDE31D /* SchoolScoresViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09F0C0B211BEB5300EDE31D /* SchoolScoresViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +38,24 @@
 /* Begin PBXFileReference section */
 		E09F0BD0211B5F5900EDE31D /* 20180808-LuisEscamilla-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20180808-LuisEscamilla-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09F0BD3211B5F5900EDE31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E09F0BD5211B5F5900EDE31D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E09F0BD5211B5F5900EDE31D /* SchoolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewController.swift; sourceTree = "<group>"; };
 		E09F0BD8211B5F5900EDE31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E09F0BDA211B5F6300EDE31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09F0BDD211B5F6300EDE31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09F0BDF211B5F6300EDE31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E09F0BE4211B5F6400EDE31D /* 20180808-LuisEscamilla-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20180808-LuisEscamilla-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E09F0BE8211B5F6400EDE31D /* _0180808_LuisEscamilla_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0180808_LuisEscamilla_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		E09F0BE8211B5F6400EDE31D /* WebserviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebserviceTests.swift; sourceTree = "<group>"; };
 		E09F0BEA211B5F6400EDE31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09F0BF4211B656700EDE31D /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		E09F0BF7211B7BDF00EDE31D /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		E09F0BFB211B883900EDE31D /* SchoolsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsListViewModel.swift; sourceTree = "<group>"; };
+		E09F0BFE211BBE5500EDE31D /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		E09F0C00211BCC8B00EDE31D /* SchoolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewController.swift; sourceTree = "<group>"; };
+		E09F0C02211BCF5100EDE31D /* SchoolScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolScores.swift; sourceTree = "<group>"; };
+		E09F0C04211BD16800EDE31D /* SchoolScoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolScoresViewModel.swift; sourceTree = "<group>"; };
+		E09F0C07211BDFF100EDE31D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E09F0C09211BEB1500EDE31D /* SchoolsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewModelTests.swift; sourceTree = "<group>"; };
+		E09F0C0B211BEB5300EDE31D /* SchoolScoresViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolScoresViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +97,13 @@
 		E09F0BD2211B5F5900EDE31D /* 20180808-LuisEscamilla-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				E09F0C06211BDFDA00EDE31D /* Constants */,
+				E09F0BFD211BBE2500EDE31D /* Cells */,
+				E09F0BFA211B880C00EDE31D /* ViewModels */,
+				E09F0BF9211B84C600EDE31D /* ViewControllers */,
+				E09F0BF6211B7A9700EDE31D /* Models */,
+				E09F0BF3211B5FB100EDE31D /* Services */,
 				E09F0BD3211B5F5900EDE31D /* AppDelegate.swift */,
-				E09F0BD5211B5F5900EDE31D /* ViewController.swift */,
 				E09F0BD7211B5F5900EDE31D /* Main.storyboard */,
 				E09F0BDA211B5F6300EDE31D /* Assets.xcassets */,
 				E09F0BDC211B5F6300EDE31D /* LaunchScreen.storyboard */,
@@ -90,10 +115,63 @@
 		E09F0BE7211B5F6400EDE31D /* 20180808-LuisEscamilla-NYCSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				E09F0BE8211B5F6400EDE31D /* _0180808_LuisEscamilla_NYCSchoolsTests.swift */,
+				E09F0BE8211B5F6400EDE31D /* WebserviceTests.swift */,
+				E09F0C09211BEB1500EDE31D /* SchoolsViewModelTests.swift */,
+				E09F0C0B211BEB5300EDE31D /* SchoolScoresViewModelTests.swift */,
 				E09F0BEA211B5F6400EDE31D /* Info.plist */,
 			);
 			path = "20180808-LuisEscamilla-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		E09F0BF3211B5FB100EDE31D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0BF4211B656700EDE31D /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E09F0BF6211B7A9700EDE31D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0BF7211B7BDF00EDE31D /* School.swift */,
+				E09F0C02211BCF5100EDE31D /* SchoolScores.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E09F0BF9211B84C600EDE31D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0BD5211B5F5900EDE31D /* SchoolsViewController.swift */,
+				E09F0C00211BCC8B00EDE31D /* SchoolDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E09F0BFA211B880C00EDE31D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0BFB211B883900EDE31D /* SchoolsListViewModel.swift */,
+				E09F0C04211BD16800EDE31D /* SchoolScoresViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E09F0BFD211BBE2500EDE31D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0BFE211BBE5500EDE31D /* SchoolTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E09F0C06211BDFDA00EDE31D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E09F0C07211BDFF100EDE31D /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +275,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09F0BD6211B5F5900EDE31D /* ViewController.swift in Sources */,
+				E09F0C05211BD16800EDE31D /* SchoolScoresViewModel.swift in Sources */,
+				E09F0BD6211B5F5900EDE31D /* SchoolsViewController.swift in Sources */,
+				E09F0BFF211BBE5500EDE31D /* SchoolTableViewCell.swift in Sources */,
+				E09F0BFC211B883900EDE31D /* SchoolsListViewModel.swift in Sources */,
 				E09F0BD4211B5F5900EDE31D /* AppDelegate.swift in Sources */,
+				E09F0C08211BDFF100EDE31D /* Constants.swift in Sources */,
+				E09F0C03211BCF5100EDE31D /* SchoolScores.swift in Sources */,
+				E09F0C01211BCC8B00EDE31D /* SchoolDetailViewController.swift in Sources */,
+				E09F0BF5211B656700EDE31D /* Webservice.swift in Sources */,
+				E09F0BF8211B7BDF00EDE31D /* School.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09F0BE9211B5F6400EDE31D /* _0180808_LuisEscamilla_NYCSchoolsTests.swift in Sources */,
+				E09F0C0C211BEB5300EDE31D /* SchoolScoresViewModelTests.swift in Sources */,
+				E09F0C0A211BEB1500EDE31D /* SchoolsViewModelTests.swift in Sources */,
+				E09F0BE9211B5F6400EDE31D /* WebserviceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
